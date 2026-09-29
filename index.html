@@ -1,55 +1,43 @@
 <!DOCTYPE html>
-<!-- Define que este é um documento HTML5 -->
 <html lang="pt-BR">
-<!-- lang="pt-BR" ajuda o navegador e Google a saber que o site é em português do Brasil -->
-
 <head>
-    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chalé Grein | Hospedagem Exclusiva em Papanduva - SC</title>
-
-    <!-- FONTS: carregando fontes bonitas do Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Raleway:wght@300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet">
-    <!-- 
-        Playfair Display: fonte elegante para títulos
-        Raleway: fonte moderna para textos normais
-        Cormorant Garamond: fonte cursiva para detalhes sofisticados
-    -->
+    <title>[NOME DO CHALÉ] | [SLOGAN CURTO]</title>
     
-    <!-- ICONS: biblioteca de ícones (estrelas, telefone, etc.) -->
+    <!-- Fontes do Google -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Raleway:wght@300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet">
+    
+    <!-- Ícones -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     
-    <!-- CSS: linkando nosso arquivo de estilos -->
+    <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
     <!-- ============================================ -->
-    <!-- NAVBAR: menu de navegação no topo do site    -->
+    <!-- NAVBAR: menu de navegação                    -->
     <!-- ============================================ -->
     <nav class="navbar" id="navbar">
-
-        <!-- Logo do site -->
+        <!-- [TROCAR] Nome do seu chalé -->
         <a href="#" class="nav-logo">
-            Chalé Grein
-            <span>Hospedagem Exclusiva</span>
+            [NOME DO CHALÉ]
+            <span>[SLOGAN CURTO]</span>
         </a>
         
-        <!-- Links do menu -->
         <ul class="nav-links" id="navLinks">
             <li><a href="#sobre">Sobre</a></li>
             <li><a href="#galeria">Galeria</a></li>
             <li><a href="#disponibilidade">Disponibilidade</a></li>
             <li><a href="#valores">Valores</a></li>
             <li><a href="#depoimentos">Depoimentos</a></li>
-            
-            <!-- Botão de reservar que leva direto pro WhatsApp -->
-            <li><a href="https://wa.me/5547996115448" target="_blank" class="nav-cta">Reservar</a></li>
+            <!-- [TROCAR] Número do WhatsApp com código do país (55 = Brasil) -->
+            <li><a href="https://wa.me/[SEU_NUMERO]" target="_blank" class="nav-cta">Reservar</a></li>
         </ul>
         
-        <!-- Menu hambúrguer (aparece só no celular) -->
+        <!-- Menu hambúrguer (celular) -->
         <div class="hamburger" id="hamburger" onclick="toggleMenu()">
             <span></span>
             <span></span>
@@ -58,26 +46,30 @@
     </nav>
 
     <!-- ============================================ -->
-    <!-- HERO: primeira seção que o cliente vê        -->
+    <!-- HERO: primeira seção                         -->
     <!-- ============================================ -->
     <section class="hero">
-        <!-- Imagem de fundo com efeito de zoom -->
         <div class="hero-bg"></div>
         
         <div class="hero-content">
-            <div class="hero-badge">Papanduva — Santa Catarina</div>
-            <h1 class="hero-title">Chalé <span class="gold">Grein</span></h1>
-            <p class="hero-subtitle">Conforto, privacidade e natureza em perfeita harmonia</p>
-            <p class="hero-desc">Uma experiência única de hospedagem exclusiva em meio à natureza serrana. Desconecte-se do mundo e reconecte-se com o que realmente importa.</p>
+            <!-- [TROCAR] Localização -->
+            <div class="hero-badge">[CIDADE] — [ESTADO]</div>
             
-            <!-- Botões de ação -->
+            <!-- [TROCAR] Nome do chalé -->
+            <h1 class="hero-title">[NOME DO CHALÉ]</h1>
+            
+            <!-- [TROCAR] Frase de impacto -->
+            <p class="hero-subtitle">[SUA FRASE DE IMPACTO AQUI]</p>
+            
+            <!-- [TROCAR] Descrição curta -->
+            <p class="hero-desc">[DESCRIÇÃO CURTA DO SEU CHALÉ - 2 a 3 linhas no máximo]</p>
+            
             <div class="hero-buttons">
                 <a href="#disponibilidade" class="btn-primary">Ver Disponibilidade</a>
                 <a href="#sobre" class="btn-secondary">Conhecer o Chalé</a>
             </div>
         </div>
         
-        <!-- Setinha animada no final da tela -->
         <div class="hero-scroll">
             <a href="#sobre"><i class="fas fa-chevron-down"></i></a>
         </div>
@@ -88,28 +80,31 @@
     <!-- ============================================ -->
     <section class="about" id="sobre">
         <div class="about-grid">
-            <!-- Imagem do chalé -->
             <div class="about-image reveal">
-                <img src="fotos/exterior.jpg" alt="Chalé Grein - Exterior">
+                <!-- [TROCAR] Foto do exterior -->
+                <img src="fotos/exterior.jpg" alt="[NOME DO CHALÉ] - Exterior">
             </div>
             
-            <!-- Texto e características -->
             <div class="about-text reveal">
                 <span class="section-label">Nossa História</span>
-                <h3>Um refúgio <span class="gold">exclusivo</span> no coração da serra catarinense</h3>
-                <p>O Chalé Grein foi pensado para oferecer uma experiência de hospedagem diferenciada, onde cada detalhe foi cuidadosamente planejado para proporcionar conforto absoluto em meio à natureza exuberante de Papanduva.</p>
-                <p>Nosso chalé A-Frame com design contemporâneo, lareira a lenha, hidromassagem e vista panorâmica cria o cenário perfeito para momentos inesquecíveis.</p>
                 
-                <!-- Lista de comodidades -->
+                <!-- [TROCAR] Título da seção sobre -->
+                <h3>Um refúgio <span class="gold">[ADJETIVO]</span> [COMPLEMENTO]</h3>
+                
+                <!-- [TROCAR] Parágrafos sobre o chalé -->
+                <p>[PARÁGRAFO 1: conte um pouco sobre o chalé, o que o torna especial]</p>
+                <p>[PARÁGRAFO 2: fale sobre a experiência que o hóspede vai ter]</p>
+                
+                <!-- [TROCAR/ADICIONAR/REMOVER] Comodidades -->
                 <div class="about-features">
-                    <div class="about-feature"><i class="fas fa-fire"></i><span>Lareira a Lenha</span></div>
-                    <div class="about-feature"><i class="fas fa-hot-tub"></i><span>Hidromassagem</span></div>
-                    <div class="about-feature"><i class="fas fa-mountain"></i><span>Vista Panorâmica</span></div>
-                    <div class="about-feature"><i class="fas fa-coffee"></i><span>Café da Manhã</span></div>
-                    <div class="about-feature"><i class="fas fa-wifi"></i><span>Wi-Fi Premium</span></div>
-                    <div class="about-feature"><i class="fas fa-car"></i><span>Estacionamento</span></div>
-                    <div class="about-feature"><i class="fas fa-tree"></i><span>Área Verde Privativa</span></div>
-                    <div class="about-feature"><i class="fas fa-tv"></i><span>Smart TV 55"</span></div>
+                    <div class="about-feature"><i class="fas fa-fire"></i><span>[COMODIDADE 1]</span></div>
+                    <div class="about-feature"><i class="fas fa-hot-tub"></i><span>[COMODIDADE 2]</span></div>
+                    <div class="about-feature"><i class="fas fa-mountain"></i><span>[COMODIDADE 3]</span></div>
+                    <div class="about-feature"><i class="fas fa-coffee"></i><span>[COMODIDADE 4]</span></div>
+                    <div class="about-feature"><i class="fas fa-wifi"></i><span>[COMODIDADE 5]</span></div>
+                    <div class="about-feature"><i class="fas fa-car"></i><span>[COMODIDADE 6]</span></div>
+                    <div class="about-feature"><i class="fas fa-tree"></i><span>[COMODIDADE 7]</span></div>
+                    <div class="about-feature"><i class="fas fa-tv"></i><span>[COMODIDADE 8]</span></div>
                 </div>
             </div>
         </div>
@@ -121,13 +116,13 @@
     <section class="gallery" id="galeria">
         <div class="section-header reveal">
             <span class="section-label">Galeria</span>
-            <h2 class="section-title">Cada canto, uma <em>experiência</em></h2>
+            <h2 class="section-title">[TÍTULO DA GALERIA]</h2>
             <div class="section-line"></div>
-            <p class="section-desc">Ambientes pensados para proporcionar conforto e sofisticação</p>
+            <p class="section-desc">[SUBTÍTULO/DESCRIÇÃO DA GALERIA]</p>
         </div>
         
-        <!-- Grid de fotos (a primeira ocupa 2 espaços) -->
         <div class="gallery-grid reveal">
+            <!-- [TROCAR] Fotos da galeria (pode adicionar mais itens) -->
             <div class="gallery-item">
                 <img src="fotos/exterior.jpg" alt="Exterior">
                 <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
@@ -152,7 +147,7 @@
     </section>
 
     <!-- ============================================ -->
-    <!-- DISPONIBILIDADE: calendário de reservas      -->
+    <!-- DISPONIBILIDADE: calendário                  -->
     <!-- ============================================ -->
     <section class="availability" id="disponibilidade">
         <div class="section-header reveal">
@@ -163,24 +158,20 @@
         </div>
 
         <div class="calendar-container reveal">
-            <!-- Botões para navegar entre os meses -->
             <div class="calendar-controls">
                 <button onclick="changeMonth(-1)"><i class="fas fa-chevron-left"></i></button>
                 <div class="month-year" id="monthYear"></div>
                 <button onclick="changeMonth(1)"><i class="fas fa-chevron-right"></i></button>
             </div>
 
-            <!-- Legenda do calendário -->
             <div class="calendar-legend">
                 <div class="legend-item"><div class="legend-dot available"></div><span>Disponível</span></div>
                 <div class="legend-item"><div class="legend-dot reserved"></div><span>Reservado</span></div>
                 <div class="legend-item"><div class="legend-dot today"></div><span>Hoje</span></div>
             </div>
 
-            <!-- Aqui o JavaScript vai criar os dias do mês -->
             <div class="calendar-grid" id="calendarGrid"></div>
 
-            <!-- Estatísticas do mês -->
             <div class="availability-info">
                 <div class="avail-stat">
                     <div class="number" id="availableDays">0</div>
@@ -210,65 +201,66 @@
         </div>
 
         <div class="pricing-grid reveal">
-            <!-- Pacote 1: Diária Semanal -->
+            <!-- [TROCAR] Pacote 1 -->
             <div class="pricing-card">
                 <div class="pricing-icon"><i class="fas fa-moon"></i></div>
-                <h3 class="pricing-name">Diária Semanal</h3>
-                <p class="pricing-desc">Segunda a Quinta<br>Experiência completa com café da manhã</p>
+                <h3 class="pricing-name">[NOME DO PACOTE 1]</h3>
+                <p class="pricing-desc">[DESCRIÇÃO CURTA DO PACOTE]</p>
                 <div class="pricing-value">
                     <div class="from">A partir de</div>
-                    <div class="amount">R$ 450</div>
-                    <div class="period">/ diária</div>
+                    <div class="amount">R$ [VALOR]</div>
+                    <div class="period">/ [PERÍODO]</div>
                 </div>
                 <ul class="pricing-features">
-                    <li><i class="fas fa-check"></i> Café da manhã incluso</li>
-                    <li><i class="fas fa-check"></i> Lareira a lenha</li>
-                    <li><i class="fas fa-check"></i> Hidromassagem</li>
-                    <li><i class="fas fa-check"></i> Wi-Fi premium</li>
-                    <li><i class="fas fa-check"></i> Estacionamento privativo</li>
+                    <li><i class="fas fa-check"></i> [ITEM INCLUSO 1]</li>
+                    <li><i class="fas fa-check"></i> [ITEM INCLUSO 2]</li>
+                    <li><i class="fas fa-check"></i> [ITEM INCLUSO 3]</li>
+                    <li><i class="fas fa-check"></i> [ITEM INCLUSO 4]</li>
+                    <li><i class="fas fa-check"></i> [ITEM INCLUSO 5]</li>
                 </ul>
-                <a href="https://wa.me/5547996115448?text=Olá! Gostaria de reservar para dias de semana." class="pricing-btn" target="_blank">Reservar</a>
+                <!-- [TROCAR] Número do WhatsApp -->
+                <a href="https://wa.me/[SEU_NUMERO]?text=[MENSAGEM_PRÉ_DEFINIDA]" class="pricing-btn" target="_blank">Reservar</a>
             </div>
 
-            <!-- Pacote 2: Fim de Semana (destaque) -->
+            <!-- [TROCAR] Pacote 2 (destaque) -->
             <div class="pricing-card featured">
-                <div class="pricing-badge">Mais Reservado</div>
+                <div class="pricing-badge">[TEXTO DA BADGE]</div>
                 <div class="pricing-icon"><i class="fas fa-star"></i></div>
-                <h3 class="pricing-name">Diária Fim de Semana</h3>
-                <p class="pricing-desc">Sexta a Domingo<br>A experiência completa Grein</p>
+                <h3 class="pricing-name">[NOME DO PACOTE 2]</h3>
+                <p class="pricing-desc">[DESCRIÇÃO CURTA DO PACOTE]</p>
                 <div class="pricing-value">
                     <div class="from">A partir de</div>
-                    <div class="amount">R$ 650</div>
-                    <div class="period">/ diária</div>
+                    <div class="amount">R$ [VALOR]</div>
+                    <div class="period">/ [PERÍODO]</div>
                 </div>
                 <ul class="pricing-features">
-                    <li><i class="fas fa-check"></i> Tudo do pacote semanal</li>
-                    <li><i class="fas fa-check"></i> Late checkout (14h)</li>
-                    <li><i class="fas fa-check"></i> Welcome drink</li>
-                    <li><i class="fas fa-check"></i> Kit lareira incluso</li>
-                    <li><i class="fas fa-check"></i> Early check-in (13h)</li>
+                    <li><i class="fas fa-check"></i> [ITEM INCLUSO 1]</li>
+                    <li><i class="fas fa-check"></i> [ITEM INCLUSO 2]</li>
+                    <li><i class="fas fa-check"></i> [ITEM INCLUSO 3]</li>
+                    <li><i class="fas fa-check"></i> [ITEM INCLUSO 4]</li>
+                    <li><i class="fas fa-check"></i> [ITEM INCLUSO 5]</li>
                 </ul>
-                <a href="https://wa.me/5547996115448?text=Olá! Gostaria de reservar para o fim de semana." class="pricing-btn" target="_blank">Reservar</a>
+                <a href="https://wa.me/[SEU_NUMERO]?text=[MENSAGEM_PRÉ_DEFINIDA]" class="pricing-btn" target="_blank">Reservar</a>
             </div>
 
-            <!-- Pacote 3: Romântico -->
+            <!-- [TROCAR] Pacote 3 -->
             <div class="pricing-card">
                 <div class="pricing-icon"><i class="fas fa-gem"></i></div>
-                <h3 class="pricing-name">Pacote Romântico</h3>
-                <p class="pricing-desc">Experiência especial para casais<br>Mínimo 2 diárias</p>
+                <h3 class="pricing-name">[NOME DO PACOTE 3]</h3>
+                <p class="pricing-desc">[DESCRIÇÃO CURTA DO PACOTE]</p>
                 <div class="pricing-value">
                     <div class="from">A partir de</div>
-                    <div class="amount">R$ 1.500</div>
-                    <div class="period">/ pacote 2 noites</div>
+                    <div class="amount">R$ [VALOR]</div>
+                    <div class="period">/ [PERÍODO]</div>
                 </div>
                 <ul class="pricing-features">
-                    <li><i class="fas fa-check"></i> Tudo do fim de semana</li>
-                    <li><i class="fas fa-check"></i> Decoração romântica</li>
-                    <li><i class="fas fa-check"></i> Espumante + frutas</li>
-                    <li><i class="fas fa-check"></i> Banho de ofurô preparado</li>
-                    <li><i class="fas fa-check"></i> Jantar especial (sob consulta)</li>
+                    <li><i class="fas fa-check"></i> [ITEM INCLUSO 1]</li>
+                    <li><i class="fas fa-check"></i> [ITEM INCLUSO 2]</li>
+                    <li><i class="fas fa-check"></i> [ITEM INCLUSO 3]</li>
+                    <li><i class="fas fa-check"></i> [ITEM INCLUSO 4]</li>
+                    <li><i class="fas fa-check"></i> [ITEM INCLUSO 5]</li>
                 </ul>
-                <a href="https://wa.me/5547996115448?text=Olá! Gostaria do Pacote Romântico." class="pricing-btn" target="_blank">Reservar</a>
+                <a href="https://wa.me/[SEU_NUMERO]?text=[MENSAGEM_PRÉ_DEFINIDA]" class="pricing-btn" target="_blank">Reservar</a>
             </div>
         </div>
     </section>
@@ -285,35 +277,36 @@
         </div>
 
         <div class="extras-grid reveal">
+            <!-- [TROCAR/ADICIONAR/REMOVER] Extras -->
             <div class="extra-card">
                 <i class="fas fa-utensils"></i>
-                <h4>Café da Manhã Especial</h4>
-                <div class="extra-price">R$ 80/casal</div>
-                <p>Seleção premium de pães, frutas, queijos e frios artesanais</p>
+                <h4>[NOME DO EXTRA 1]</h4>
+                <div class="extra-price">R$ [VALOR]</div>
+                <p>[DESCRIÇÃO DO EXTRA]</p>
             </div>
             <div class="extra-card">
                 <i class="fas fa-wine-glass-alt"></i>
-                <h4>Kit Espumante</h4>
-                <div class="extra-price">R$ 120</div>
-                <p>Espumante brut + taças + morangos com chocolate belga</p>
+                <h4>[NOME DO EXTRA 2]</h4>
+                <div class="extra-price">R$ [VALOR]</div>
+                <p>[DESCRIÇÃO DO EXTRA]</p>
             </div>
             <div class="extra-card">
                 <i class="fas fa-bicycle"></i>
-                <h4>Passeio de Quadriciclo</h4>
-                <div class="extra-price">R$ 200/hora</div>
-                <p>Explore as trilhas e paisagens da região com guia local</p>
+                <h4>[NOME DO EXTRA 3]</h4>
+                <div class="extra-price">R$ [VALOR]</div>
+                <p>[DESCRIÇÃO DO EXTRA]</p>
             </div>
             <div class="extra-card">
                 <i class="fas fa-spa"></i>
-                <h4>Massagem Relaxante</h4>
-                <div class="extra-price">R$ 180</div>
-                <p>Sessão de 60 min com profissional especializada no chalé</p>
+                <h4>[NOME DO EXTRA 4]</h4>
+                <div class="extra-price">R$ [VALOR]</div>
+                <p>[DESCRIÇÃO DO EXTRA]</p>
             </div>
         </div>
     </section>
 
     <!-- ============================================ -->
-    <!-- DEPOIMENTOS: avaliações de hóspedes          -->
+    <!-- DEPOIMENTOS: avaliações                      -->
     <!-- ============================================ -->
     <section class="testimonials" id="depoimentos">
         <div class="section-header reveal">
@@ -323,44 +316,47 @@
         </div>
 
         <div class="testimonials-grid reveal">
+            <!-- [TROCAR] Depoimento 1 -->
             <div class="testimonial-card">
                 <div class="testimonial-stars">
                     <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
                 </div>
-                <p class="testimonial-text">"Experiência incrível! O chalé é ainda mais bonito pessoalmente. A lareira, a vista, o silêncio... Perfeito para desconectar. Voltaremos com certeza!"</p>
+                <p class="testimonial-text">"[TEXTO DO DEPOIMENTO]"</p>
                 <div class="testimonial-author">
-                    <div class="testimonial-avatar">M</div>
+                    <div class="testimonial-avatar">[INICIAL]</div>
                     <div>
-                        <div class="testimonial-name">Mariana & Pedro</div>
-                        <div class="testimonial-date">Janeiro 2025</div>
+                        <div class="testimonial-name">[NOME DO HÓSPEDE]</div>
+                        <div class="testimonial-date">[MÊS/ANO]</div>
                     </div>
                 </div>
             </div>
 
+            <!-- [TROCAR] Depoimento 2 -->
             <div class="testimonial-card">
                 <div class="testimonial-stars">
                     <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
                 </div>
-                <p class="testimonial-text">"Comemoramos nosso aniversário de casamento lá e foi mágico. O pacote romântico superou todas as expectativas. Atendimento impecável do início ao fim."</p>
+                <p class="testimonial-text">"[TEXTO DO DEPOIMENTO]"</p>
                 <div class="testimonial-author">
-                    <div class="testimonial-avatar">C</div>
+                    <div class="testimonial-avatar">[INICIAL]</div>
                     <div>
-                        <div class="testimonial-name">Camila & Rafael</div>
-                        <div class="testimonial-date">Dezembro 2024</div>
+                        <div class="testimonial-name">[NOME DO HÓSPEDE]</div>
+                        <div class="testimonial-date">[MÊS/ANO]</div>
                     </div>
                 </div>
             </div>
 
+            <!-- [TROCAR] Depoimento 3 -->
             <div class="testimonial-card">
                 <div class="testimonial-stars">
                     <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
                 </div>
-                <p class="testimonial-text">"Lugar maravilhoso! Fomos com as crianças e eles adoraram. A natureza ao redor é linda, o chalé é super confortável e o café da manhã é delicioso."</p>
+                <p class="testimonial-text">"[TEXTO DO DEPOIMENTO]"</p>
                 <div class="testimonial-author">
-                    <div class="testimonial-avatar">J</div>
+                    <div class="testimonial-avatar">[INICIAL]</div>
                     <div>
-                        <div class="testimonial-name">Juliana & Família</div>
-                        <div class="testimonial-date">Novembro 2024</div>
+                        <div class="testimonial-name">[NOME DO HÓSPEDE]</div>
+                        <div class="testimonial-date">[MÊS/ANO]</div>
                     </div>
                 </div>
             </div>
@@ -375,7 +371,8 @@
             <span class="section-label">Reserve Agora</span>
             <h2>Garanta sua <em style="color: var(--gold); font-family: 'Playfair Display', serif;">experiência</em> inesquecível</h2>
             <p>Entre em contato conosco pelo WhatsApp e reserve sua data. Atendimento personalizado e rápido.</p>
-            <a href="https://wa.me/5547996115448?text=Olá! Gostaria de fazer uma reserva no Chalé Grein." target="_blank" class="cta-whatsapp">
+            <!-- [TROCAR] Número do WhatsApp -->
+            <a href="https://wa.me/[SEU_NUMERO]?text=[MENSAGEM_PRÉ_DEFINIDA]" target="_blank" class="cta-whatsapp">
                 <i class="fab fa-whatsapp"></i>
                 Fazer Reserva
             </a>
@@ -383,17 +380,18 @@
     </section>
 
     <!-- ============================================ -->
-    <!-- FOOTER: rodapé do site                       -->
+    <!-- FOOTER: rodapé                               -->
     <!-- ============================================ -->
     <footer class="footer">
         <div class="footer-grid">
             <div class="footer-brand">
-                <a href="#" class="nav-logo">Chalé Grein<span>Hospedagem Exclusiva</span></a>
-                <p>Conforto, privacidade e natureza em perfeita harmonia. Sua escapada perfeita em Papanduva, Santa Catarina.</p>
+                <a href="#" class="nav-logo">[NOME DO CHALÉ]<span>[SLOGAN]</span></a>
+                <p>[DESCRIÇÃO CURTA DO CHALÉ PARA O RODAPÉ]</p>
                 <div class="footer-social">
-                    <a href="https://instagram.com/chalegrein" target="_blank"><i class="fab fa-instagram"></i></a>
-                    <a href="https://wa.me/5547996115448" target="_blank"><i class="fab fa-whatsapp"></i></a>
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <!-- [TROCAR] Links das redes sociais -->
+                    <a href="[LINK_INSTAGRAM]" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://wa.me/[SEU_NUMERO]" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    <a href="[LINK_FACEBOOK]"><i class="fab fa-facebook-f"></i></a>
                 </div>
             </div>
 
@@ -411,8 +409,9 @@
             <div class="footer-col">
                 <h4>Políticas</h4>
                 <ul>
-                    <li><a href="#">Check-in: 14h</a></li>
-                    <li><a href="#">Check-out: 12h</a></li>
+                    <!-- [TROCAR] Horários e políticas -->
+                    <li><a href="#">Check-in: [HORÁRIO]</a></li>
+                    <li><a href="#">Check-out: [HORÁRIO]</a></li>
                     <li><a href="#">Cancelamento</a></li>
                     <li><a href="#">Termos de Uso</a></li>
                     <li><a href="#">Privacidade</a></li>
@@ -423,37 +422,42 @@
                 <h4>Contato</h4>
                 <div class="contact-item">
                     <i class="fas fa-map-marker-alt"></i>
-                    <span>Papanduva — SC<br>Brasil</span>
+                    <!-- [TROCAR] Endereço -->
+                    <span>[CIDADE] — [ESTADO]<br>[PAÍS]</span>
                 </div>
                 <div class="contact-item">
                     <i class="fab fa-whatsapp"></i>
-                    <span>(47) 99611-5448</span>
+                    <!-- [TROCAR] Telefone -->
+                    <span>[SEU TELEFONE]</span>
                 </div>
                 <div class="contact-item">
                     <i class="fab fa-instagram"></i>
-                    <span>@chalegrein</span>
+                    <!-- [TROCAR] Instagram -->
+                    <span>[@SEU_INSTAGRAM]</span>
                 </div>
             </div>
         </div>
 
         <div class="footer-bottom">
-            <p>&copy; 2025 Chalé Grein. Todos os direitos reservados. | Hospedagem Exclusiva em Papanduva - SC</p>
+            <!-- [TROCAR] Ano e nome -->
+            <p>&copy; [ANO] [NOME DO CHALÉ]. Todos os direitos reservados.</p>
         </div>
     </footer>
 
     <!-- ============================================ -->
-    <!-- MODAL: janela que aparece ao clicar no dia   -->
+    <!-- MODAL: janela popup                          -->
     <!-- ============================================ -->
     <div class="modal-overlay" id="modalOverlay">
         <div class="modal">
             <button class="modal-close" onclick="closeModal()">&times;</button>
             <h3 id="modalTitle">Data Selecionada</h3>
             <p id="modalText"></p>
-            <a href="https://wa.me/5547996115448" target="_blank" class="btn-primary" id="modalBtn">Reservar pelo WhatsApp</a>
+            <!-- [TROCAR] Número do WhatsApp -->
+            <a href="https://wa.me/[SEU_NUMERO]" target="_blank" class="btn-primary" id="modalBtn">Reservar pelo WhatsApp</a>
         </div>
     </div>
 
-    <!-- JAVASCRIPT: linkando nosso arquivo de lógica -->
+    <!-- JavaScript -->
     <script src="js/script.js"></script>
 </body>
 </html>
